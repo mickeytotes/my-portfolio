@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<title>Michael Satow | Front-End Web Developer</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<header class="row header">
+			<div class="col-xs-1 col-sm-2 col-md-2 mobile-hamburger">
+				<!-- TODO: Make functional hamburger menu when additional pages are needed -->
+				<span>
+					<a href="#"><img src="images/hamburger_small.svg" alt="Menu Icon"></a>
+				</span>
+			</div>
+			<div class="col-xs-1 col-sm-2 col-md-2 header-inner">
+				<!-- img credit Zlatko Najdenovki -->
+				<div class="logo">
+					<a href="#"><img src="images/cheeseburgericon.svg" alt="Cheeseburger Icon"></a>
+				</div>
+			</div>
+			<div class="col-xs-11 col-sm-10 col-md-10">
+				<h1 class="text-right title"><u>Michael Satow</u></h1>
+				<h3 class="text-right title">Front-End Developer</h3>
+				<h1 class="text-center mobile-title">Michael Satow</h1>
+				<h1 class="text-center mobile-title bowtie">&#9285;</h1>
+				<h3 class="text-center mobile-title">Front-End Developer</h3>
+			</div>
+		</header>
+		<!--placeholder until I find/build a more interesting svg - img credit - Anshul Dhiman -->
+		<div class="home-image">
+			<img src="images/computer_monitor.svg" class="img-responsive" alt="Computer Monitor">
+		</div>
+		<div class="row">
+<!-- When I identify this h3 as .featured, it doesn't function, hence the use of #featured -->
+				<h3 id="featured" class="text-center">Featured Work</h3>
+		</div>
+<!-- TODO: As projects are completed, add links directing to those pages/projects -->
+		<section class="row text-center projects">
+			<a href="#">
+				<div class="col-xs-10 col-sm-5 col-md-3 project-text">
+					<img class="icons" src="images/arcadegame.svg" alt="arcade game">
+					<h4 class="text-uppercase">Arcade Game</h4>
+					<h6 class="text-uppercase">Arcade Game</h6>
+					<p>https://github.com/udacity/Arcadegame/</p>
+				</div>
+			</a>
+<!--Inserted empty colums to fix spacing issues -->
+			<div class="col-xs-1 spacer">
+			</div>
+			<a href="#">
+				<div class="col-xs-10 col-sm-5 col-md-3 project-text">
+					<img class="icons map-pin" src="images/mapmarker.svg" alt="Map Pin">
+					<h4 class="text-uppercase">Neighborhood Map</h4>
+					<h6 class="text-uppercase">Neighborhood Map</h6>
+					<p>https://github.com/udacity/neighborhoodmap/</p>
+				</div>
+			</a>
+			<div class="col-xs-1 spacer">
+			</div>
+			<a href="#">
+				<div class="col-xs-10 col-sm-5 col-md-3 project-text">
+					<img class="icons" src="images/healthtracker.svg" alt="Heart Monitor">
+					<h4 class="text-uppercase">Health Tracker</h4>
+					<h6 class="text-uppercase">Health Tracker</h6>
+					<p>https://github.com/udacity/neighborhoodmap/</p>
+				</div>
+			</a>
+			<div class="col-xs-1 spacer">
+			</div>
+		</section>
+	</div>
+</body>
+</html>

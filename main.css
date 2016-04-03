@@ -1,0 +1,173 @@
+* {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+/* Header */
+
+.logo {
+	min-width: 100px;
+}
+
+.header {
+	box-shadow: 1px 1px 5px #888;
+}
+
+.header-inner {
+	padding-top: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+
+.mobile-hamburger {
+	padding-top: 10px;
+}
+
+.text-right {
+	margin: 0;
+}
+
+.title {
+	line-height: 1.1em;
+}
+
+
+h1 {
+	padding-top: 45px;
+}
+
+.mobile-title {
+	padding: 0;
+	margin: 0;
+}
+
+.bowtie {
+	margin-top: 10px;
+	line-height: 0.5em;
+}
+
+/* Content */
+
+.home-image {
+	max-width: 440px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 50px 0;
+}
+
+#featured {
+	color: #bcbbbb;
+}
+
+
+
+@media screen and (min-width: 415px) {
+	.mobile-hamburger {
+		display: none;
+	}
+
+	.mobile-title {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.header-inner {
+		display: none;
+	}
+
+	.title {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 493px) {
+	p {
+		display: none;
+	}
+}
+
+/* fixing alignment of #projects in smaller viewports */
+@media screen and (max-width: 564px) {
+	.projects {
+		padding-left: 50px;
+	}
+}
+
+@media screen and (min-width: 565px) {
+	.projects {
+		padding-left: 90px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#featured {
+		text-align: left;
+	}
+
+	p {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	h6 {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+h4 {
+		display: none;
+	}
+
+.projects {
+		padding-left: 142px;
+	}
+}
+
+.projects {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-xs-10 {
+	margin-left: auto;
+	margin-right: auto;
+	border: solid black 1px;
+	max-width: 100%;
+	margin-bottom: 20px;
+	background-color: #edb77f;
+}
+
+.col-sm-5 {
+	max-width: 600px;
+
+}
+
+.icons {
+	padding-top: 20px;
+	min-width: 100px;
+}
+
+.map-pin {
+	margin-left: 25px;
+}
+
+.project-text {
+	color: black;
+	text-decoration: none;
+}
+
+.spacer {
+	max-width: 10px;
+}
